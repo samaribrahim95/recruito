@@ -1,0 +1,28 @@
+@import url('./assets/css/main.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --color-royal-blue: 31 103 231;
+    --color-java: 26 215 190;
+    --color-dark-gray: 11 25 40;
+    --color-medium-gray: 62 71 87;
+    --color-light-gray: 207 216 227;
+    --color-science-blue: 0 76 211;
+    --color-lima-green: 94 208 40;
+    --color-golden-orange: 223 148 35;
+    --color-regent-gray: 132 142 160
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(134.83deg, rgb(var(--color-royal-blue)) 35.46%, rgb(var(--color-java)) 100.01%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  }
+}

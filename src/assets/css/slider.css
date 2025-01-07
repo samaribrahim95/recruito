@@ -1,0 +1,19 @@
+.carousel .slick-dots {
+  bottom: -40px;
+}
+
+.carousel .slick-dots li button{
+  width: 6px;
+  height: 6px;
+  background-color: rgba(var(--color-regent-gray)/20%);
+  border-radius: 10px
+}
+
+.carousel .slick-dots li button::before {
+  display: none;
+}
+
+.carousel .slick-dots li.slick-active button{
+  background-color: rgba(var(--color-royal-blue)/60%);
+  width: 16px;
+}
